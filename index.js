@@ -1,7 +1,9 @@
 const Application = require('@waline/vercel');
 
 module.exports = Application({
-  async postSave(comment) {
-    //do what ever you want after save comment
-  }
+  secureDomains: 'njzjz.win',
+  forbiddenWords: [
+    '习近平',
+    '毛泽东'
+  ]
 });
