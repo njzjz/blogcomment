@@ -5,5 +5,8 @@ module.exports = Application({
   forbiddenWords: [
     '习近平',
     '毛泽东'
-  ]
+  ],
+  async preSave(comment) {
+    return { errmsg: 'Comment service is mantained.' };
+  },
 });
