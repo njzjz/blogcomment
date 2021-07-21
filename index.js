@@ -7,6 +7,6 @@ module.exports = Application({
     '毛泽东'
   ],
   async preSave(comment) {
-    return { errmsg: 'Comment service is mantained.' };
+    //return { errmsg: 'Comment service is mantained.' };
   },
 });
