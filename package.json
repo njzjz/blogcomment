@@ -2,6 +2,6 @@
   "name": "comment",
   "private": true,
   "dependencies": {
-    "@waline/vercel": "1.23.5"
+    "@waline/vercel": "1.24.0"
   }
 }
